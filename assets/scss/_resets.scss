@@ -115,28 +115,28 @@ button,
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-secondary);
+  background: $primary-color;
   width: 44px;
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
+}
 
-  & i {
-    font-size: 24px;
-    color: #fff;
-    line-height: 0;
-  }
+.scroll-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
 
-  &:hover {
-    background: rgba(248, 90, 64, 0.8);
-    color: #fff;
-  }
+.scroll-top:hover {
+  background: rgba(248, 90, 64, 0.8);
+  color: #fff;
+}
 
-  &:active {
-    visibility: visible;
-    opacity: 1;
-    bottom: 15px;
-  }
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -156,8 +156,7 @@ button,
     top: calc(50% - 30px);
     left: calc(50% - 30px);
     border: 6px solid #fff;
-    border-color: var(--color-primary) transparent var(--color-primary)
-      transparent;
+    border-color: $primary-color-2 transparent $primary-color-2 transparent;
     border-radius: 50%;
     width: 60px;
     height: 60px;

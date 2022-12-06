@@ -1,9 +1,3 @@
-/**
- * Template Name: Impact - v1.1.1
- * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 document.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
@@ -132,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const scrollTop = document.querySelector(".scroll-top");
   if (scrollTop) {
     const togglescrollTop = function () {
-      window.scrollY > 100
+      window.scrollY > 80
         ? scrollTop.classList.add("active")
         : scrollTop.classList.remove("active");
     };

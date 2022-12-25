@@ -799,7 +799,7 @@ section {
 }
 @media only screen and (min-width:1200px) {
   #upcoming-events .carousel-item {
-    min-height: 660px;
+    min-height: 530px;
   }
 }
 #upcoming-events .bg {
@@ -823,7 +823,7 @@ section {
   background-color: #094c81;
 }
 #upcoming-events .wrapper {
-  padding: 30px 30px 37px;
+  padding: 30px 30px 15px;
   background: #f6f6f6;
   position: relative;
   border-radius: 5px;
@@ -854,17 +854,18 @@ section {
   font-family: "Montserrat", sans-serif;
 }
 #upcoming-events .wrapper .date .day {
-  font-size: 20px;
-  line-height: 1.3;
+  font-size: 15px;
+  line-height: 1.5;
 }
 @media only screen and (min-width:1200px) {
   #upcoming-events .wrapper .date .day {
-    font-size: 30px;
+    font-size: 23px;
   }
 }
 #upcoming-events .wrapper .date .year,
 #upcoming-events .wrapper .date .month {
   font-size: 9px;
+  text-transform: uppercase;
 }
 @media only screen and (min-width:1200px) {
   #upcoming-events .wrapper .date .year,

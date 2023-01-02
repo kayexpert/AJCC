@@ -343,6 +343,7 @@ section {
   position: relative;
   @media #{$sm_md_screen} {
     height: 50vh;
+    background-position: center center;
   }
   .content {
     z-index: 1;

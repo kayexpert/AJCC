@@ -19,6 +19,9 @@
     p {
       margin-bottom: 0px;
       font-size: 14px;
+      @media #{$xs_screen} {
+        font-size: 12px;
+      }
     }
     .email {
       i {
@@ -485,7 +488,11 @@ section {
     display: flex;
     justify-content: end;
   }
-
+  .mission-vision {
+    h3 {
+      color: $primary-color;
+    }
+  }
   .MV {
     .wrapper {
       border-radius: 20px;
@@ -609,6 +616,7 @@ section {
 
 .advisory-board,
 .bus-dev,
+.programmes,
 .events {
   li {
     padding: 10px 0px;

@@ -205,6 +205,11 @@ button,
   margin-bottom: 0px;
   font-size: 14px;
 }
+@media only screen and (min-width:320px) and (max-width:575px) {
+  .topbar .contact-info p {
+    font-size: 12px;
+  }
+}
 .topbar .contact-info .email i {
   vertical-align: middle;
 }
@@ -633,6 +638,9 @@ section {
   display: flex;
   justify-content: end;
 }
+#about-us .mission-vision h3 {
+  color: #1868a7;
+}
 #about-us .MV .wrapper {
   border-radius: 20px;
   padding: 15px 20px;
@@ -744,12 +752,14 @@ section {
 
 .advisory-board li,
 .bus-dev li,
+.programmes li,
 .events li {
   padding: 10px 0px;
   font-family: "Montserrat", sans-serif;
 }
 .advisory-board li i,
 .bus-dev li i,
+.programmes li i,
 .events li i {
   color: #094c81;
 }

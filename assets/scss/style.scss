@@ -441,7 +441,19 @@ section {
     }
   }
 }
-
+.about-us-page {
+  li {
+    font-family: $secondary-font;
+    color: #0000009f;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    i {
+      color: $secondary-color;
+    }
+  }
+}
 #about-us {
   .abt-bg {
     min-height: 635px;
@@ -470,16 +482,6 @@ section {
   }
   h5 {
     color: rgb(80, 79, 79);
-  }
-  li {
-    font-family: $secondary-font;
-    color: #0000009f;
-    padding-bottom: 10px;
-    font-size: 14px;
-    font-style: italic;
-    i {
-      color: $secondary-color;
-    }
   }
 
   .rm-btn {

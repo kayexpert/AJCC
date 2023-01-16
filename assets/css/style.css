@@ -250,11 +250,6 @@ button,
 .header .logo img {
   width: 100px;
 }
-@media only screen and (min-width:320px) and (max-width:575px) {
-  .header .logo img {
-    width: 60px;
-  }
-}
 
 .sticked-header-offset {
   margin-top: 70px;
@@ -458,7 +453,7 @@ section {
   }
   .mobile-nav-show {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 28px;
+    font-size: 50px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;

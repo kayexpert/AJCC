@@ -1180,7 +1180,7 @@ section {
 .team .wrapper .position {
   font-style: italic;
   font-size: 14px;
-  margin-top: 15px;
+  margin: 15px 0px 0px 0px;
   color: #6c757d;
 }
 .team .wrapper .social {

@@ -544,9 +544,6 @@ section {
   left: 0;
 }
 
-#features .box {
-  margin-top: -100px;
-}
 #features .wrapper {
   transition: 0.5s ease-in-out;
   padding: 15px;

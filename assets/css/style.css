@@ -586,7 +586,7 @@ section {
   color: #f8ca40;
 }
 
-.about-us-page li {
+#about-us li {
   font-family: "Poppins", sans-serif;
   color: rgba(0, 0, 0, 0.6235294118);
   padding-bottom: 10px;
@@ -594,7 +594,7 @@ section {
   font-style: italic;
   font-weight: 600;
 }
-.about-us-page li i {
+#about-us li i {
   color: #f8ca40;
 }
 
